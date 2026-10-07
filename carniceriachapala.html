@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carniceria Chapala</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            background-color: #f4f4f4;
+
+            color: #333;
+
+        }
+
+        header {
+
+            background-color: #2e7d32;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 30px;
+
+        }
+
+        header h1 {
+
+            margin: 0;
+
+            font-size: 40px;
+
+        }
+
+        nav {
+
+            background-color: #1b5e20;
+
+            text-align: center;
+
+            padding: 15px;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            margin: 15px;
+
+            font-weight: bold;
+
+        }
+
+        nav a:hover {
+
+            text-decoration: underline;
+
+        }
+
+        section {
+
+            background-color: white;
+
+            margin: 25px auto;
+
+            padding: 25px;
+
+            max-width: 1000px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+        }
+
+        h2 {
+
+            color: #2e7d32;
+
+        }
+
+        .producto {
+
+            display: inline-block;
+
+            width: 29%;
+
+            margin: 1%;
+
+            padding: 15px;
+
+            text-align: center;
+
+            background-color: #f1f8e9;
+
+            border-radius: 10px;
+
+            vertical-align: top;
+
+        }
+
+        .producto img {
+
+            width: 150px;
+
+            height: 120px;
+
+            object-fit: cover;
+
+            border-radius: 8px;
+
+        }
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+            margin-top: 20px;
+
+        }
+
+        th, td {
+
+            border: 1px solid #777;
+
+            padding: 12px;
+
+            text-align: center;
+
+        }
+
+        th {
+
+            background-color: #2e7d32;
+
+            color: white;
+
+        }
+
+        tr:nth-child(even) {
+
+            background-color: #eeeeee;
+
+        }
+
+        form {
+
+            max-width: 600px;
+
+            margin: auto;
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-top: 15px;
+
+            font-weight: bold;
+
+        }
+
+        input, select, textarea {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-top: 5px;
+
+            border: 1px solid #aaa;
+
+            border-radius: 5px;
+
+            box-sizing: border-box;
+
+        }
+
+        button {
+
+            margin-top: 20px;
+
+            padding: 12px 25px;
+
+            background-color: #2e7d32;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+        button:hover {
+
+            background-color: #1b5e20;
+
+        }
+
+        footer {
+
+            background-color: #1b5e20;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px;
+
+            margin-top: 30px;
+
+        }
+
+        .centrado {
+
+            text-align: center;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <h1>🛒 Carniceria Chapala</h1>
+
+        <p>Todo lo que necesitas, cerca de ti</p>
+
+    </header>
+
+    <!-- HIPERVÍNCULOS -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#productos">Productos</a>
+
+        <a href="#precios">Precios</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+    <!-- INICIO -->
+
+    <section id="inicio">
+
+        <h2>Bienvenidos a Carniceria Chapala</h2>
+
+        <p>
+
+            Tu carniceria con los mejores cortes que podras encontrar al mayor precio aquí con tu familia
+            chapala de corazon
+
+        </p>
+
+        <p>
+
+            En nuestra carniceria puedes encontrar cerdo, res,
+
+            productos de manteca de puerco, pollo etc
+
+        </p>
+
+        <div class="centrado">
+
+            <!-- IMAGEN -->
+
+            <img 
+
+                src="imagen1.jpg"
+
+                alt="Carniceria Chapala"
+
+                width="500"
+
+            >
+
+        </div>
+
+    </section>
+
+    <!-- LISTAS -->
+
+    <section>
+
+        <h2>¿Qué puedes encontrar?</h2>
+
+        <h3>Productos disponibles</h3>
+
+        <!-- LISTA NO ORDENADA -->
+
+        <ul>
+
+            <li>pollo</li>
+
+            <li>Carne de res</li>
+
+            <li>carne de cerdo</li>
+
+            <li>manteca de puerco</li>
+
+            <li>carnitas</li>
+
+            <li>carne para asar</li>
+
+        </ul>
+
+        <h3>¿Cómo comprar?</h3>
+
+        <!-- LISTA ORDENADA -->
+
+        <ol>
+
+            <li>Selecciona los productos.</li>
+
+            <li>Consulta los precios.</li>
+
+            <li>Realiza tu pedido.</li>
+
+            <li>Recoge tu compra en la tienda.</li>
+
+        </ol>
+
+    </section>
+
+    <!-- PRODUCTOS -->
+
+    <section id="productos">
+
+        <h2>Productos destacados</h2>
+
+        <div class="producto">
+
+            <img
+
+                src="imagen3.jpg"
+
+                alt="Pollo"
+
+            >
+
+            <h3>Pollo</h3>
+
+            <p>Pollo fresco para cocinar.</p>
+
+            <strong>$35.00</strong>
+
+        </div>
+
+        <div class="producto">
+
+            <img
+
+                src="imagen4.jpg"
+
+                alt="carne de res"
+
+            >
+
+            <h3>carne de res</h3>
+
+            <p>1 kg de carne</p>
+
+            <strong>$49.00</strong>
+
+        </div>
+
+        <div class="producto">
+
+            <img
+
+                src="imagen6.jpg"
+
+                alt="carne de cerdo"
+
+            >
+
+            <h3>carne de cerdo</h3>
+
+            <p>carne en termino medio.</p>
+
+            <strong>$80.00</strong>
+
+        </div>
+
+    </section>
+
+    <!-- TABLA -->
+
+    <section id="precios">
+
+        <h2>Lista de precios</h2>
+
+        <table>
+
+            <tr>
+
+                <th>Producto</th>
+
+                <th>Categoría</th>
+
+                <th>Presentación</th>
+
+                <th>Precio</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Carnes</td>
+
+                <td>Otras partes de animal</td>
+
+                <td>1 kilo</td>
+
+                <td>$80</td>
+
+            </tr>
+
+            <tr>
+
+                <td>carne</td>
+
+                <td>carnicería</td>
+
+                <td>Paquetes</td>
+
+                <td>$70</td>
+
+            </tr>
+
+            <tr>
+
+                <td>carne de cerdo</td>
+
+                <td>kilos</td>
+
+                <td>1 kg-15kg</td>
+
+                <td>$100-400</td>
+
+            </tr>
+
+            <tr>
+
+                <td>carne molida</td>
+
+                <td>carniceria</td>
+
+                <td>1 kg</td>
+
+                <td>$60
+
+</td>
+
+            </tr>
+
+            <tr>
+
+                <td>manteca de puerco</td>
+
+                <td>otros productos</td>
+
+                <td>1 kg</td>
+
+                <td>$38</td>
+
+            </tr>
+
+            <tr>
+
+                <td>carnitas</td>
+
+                <td>carniceria</td>
+
+                <td>1 orden</td>
+
+                <td>$80</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- MULTIMEDIA -->
+
+    <section>
+
+        <h2>Contenido multimedia</h2>
+
+        <h3>Video</h3>
+
+        <video width="600" controls>
+
+            <source src="video.mp4" type="video/mp4">
+
+
+        </video>
+
+        <h3>Audio</h3>
+
+        <audio controls>
+
+            <source src="audio.mp3" type="audio/mpeg">
+
+
+        </audio>
+
+        <p>
+
+        
+
+        </p>
+
+    </section>
+
+    <!-- HIPERVÍNCULO EXTERNO -->
+
+    <section>
+
+        <h2>Enlaces útiles</h2>
+
+        <p>
+
+            Puedes visitar
+
+            <a href="https://www.google.com" target="_blank">
+
+                Google
+
+            </a>
+
+            para realizar búsquedas en Internet.
+
+        </p>
+
+    </section>
+
+    <!-- FORMULARIO -->
+
+    <section id="contacto">
+
+        <h2>Formulario de contacto</h2>
+
+        <p>
+
+            Si deseas realizar una consulta, completa el siguiente formulario.
+
+        </p>
+
+        <form>
+
+            <label for="nombre">Nombre:</label>
+
+            <input
+
+                type="text"
+
+                id="nombre"
+
+                name="nombre"
+
+                placeholder="Escribe tu nombre"
+
+                required
+
+            >
+
+            <label for="correo">Correo electrónico:</label>
+
+            <input
+
+                type="email"
+
+                id="correo"
+
+                name="correo"
+
+                placeholder="ejemplo@correo.com"
+
+                required
+
+            >
+
+            <label for="telefono">Teléfono:</label>
+
+            <input
+
+                type="tel"
+
+                id="telefono"
+
+                name="telefono"
+
+                placeholder="Escribe tu teléfono"
+
+            >
+
+            <label for="producto">Producto de interés:</label>
+
+            <select id="producto" name="producto">
+
+                <option value="pollo">pollo</option>
+
+                <option value="carne de res">carne de res</option>
+
+                <option value="carne de cerdo">carne de cerdo</option
+
+                <option value="otro">Otro</option>
+
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+
+            <textarea
+
+                id="mensaje"
+
+                name="mensaje"
+
+                rows="5"
+
+                placeholder="Escribe tu mensaje..."
+
+            ></textarea>
+
+            <button type="submit">
+
+                Enviar formulario
+
+            </button>
+
+            <button type="reset">
+
+                Limpiar
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <h3>Carniceria Chapala</h3>
+
+        <p>
+
+            Gracias por visitar nuestra página web.
+
+        </p>
+
+        <p>
+
+            © 2026 Carniceria Chapala - Todos los derechos reservados.
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
